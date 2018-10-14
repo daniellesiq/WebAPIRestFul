@@ -1,0 +1,69 @@
+﻿@model ClienteModel
+
+<br />
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>ID</td>
+            <td>Nome</td>
+            <td>CPF/CNPJ</td>
+            <td>Data de Nascimento</td>
+            <td>Data de Cadastro</td>
+            <td>E-mail</td>
+            <td>Telefone</td>
+            <td>CEP</td>
+            <td>Logradouro</td>
+            <td>Tipo</td>
+            <td>UF</td>
+            <td>Nº</td>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in (List<ClienteModel>)ViewBag.ListaClientes)
+        {
+        <tr>
+            <td style="width:80px;"><button class="btn btn-default" onclick="registrar(@item.Id.ToString())">Editar</button></td>
+            <td style="width:80px;"><button class="btn btn-danger" onclick="excluir(@item.Id.ToString())">Excluir</button></td>
+            <td>@item.Id.ToString()</td>
+            <td>@item.Nome.ToString()</td>
+            <td>@item.Cpf_Cnpj.ToString()</td>
+            <td>@item.Data_Nascimento.ToString()</td>
+            <td>@item.Data_Cadastro.ToString()</td>
+            <td>@item.Email.ToString()</td>
+            <td>@item.Telefone.ToString()</td>
+            <td>@item.Cep.ToString()</td>
+            <td>@item.Logradouro.ToString()</td>
+            <td>@item.Tipo.ToString()</td>
+            <td>@item.UF.ToString()</td>
+            <td>@item.Numero.ToString()</td>
+
+        </tr>
+        }
+
+    </tbody>
+</table>
+
+<button class="btn btn-block btn-primary" onclick="registrar()">Cadastrar</button>
+
+<script>
+    function registrar(id) {
+
+        if (id == null) {
+            id = "";
+        } else {
+            id = "/" + id;
+
+        }
+        window.location.href = window.location.origin + "/Home/Registrar" + id;
+    }
+
+    function excluir(id) {
+
+        window.location.href = window.location.origin + "/Home/Excluir/" + id;
+    }
+</script>

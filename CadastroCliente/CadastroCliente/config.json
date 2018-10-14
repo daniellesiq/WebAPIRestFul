@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "ClienteDB": "server=localhost;userid=root;password=paicon123;database=ClienteDB;"
+  }
+}
