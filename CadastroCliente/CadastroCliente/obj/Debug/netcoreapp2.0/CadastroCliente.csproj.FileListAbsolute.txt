@@ -9,3 +9,14 @@ C:\Users\Danielle\Desktop\APIRest\CadastroCliente\CadastroCliente\obj\Debug\netc
 C:\Users\Danielle\Desktop\APIRest\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.AssemblyInfo.cs
 C:\Users\Danielle\Desktop\APIRest\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.dll
 C:\Users\Danielle\Desktop\APIRest\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.pdb
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\bin\Debug\netcoreapp2.0\CadastroCliente.deps.json
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\bin\Debug\netcoreapp2.0\CadastroCliente.runtimeconfig.json
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\bin\Debug\netcoreapp2.0\CadastroCliente.runtimeconfig.dev.json
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\bin\Debug\netcoreapp2.0\CadastroCliente.dll
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\bin\Debug\netcoreapp2.0\CadastroCliente.pdb
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.csprojAssemblyReference.cache
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.csproj.CoreCompileInputs.cache
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.AssemblyInfoInputs.cache
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.AssemblyInfo.cs
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.dll
+C:\Users\Danielle\Desktop\CadastroCliente\CadastroCliente\CadastroCliente\obj\Debug\netcoreapp2.0\CadastroCliente.pdb
